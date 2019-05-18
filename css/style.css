@@ -1,0 +1,93 @@
+.banner{
+  width: 100%;
+  border: 1px solid #ddd;
+  box-shadow: 0px 8px 8px -6px #000;
+}
+
+.banner img{
+  width: 100%;
+  height: auto;
+}
+
+.col-md-6 img{
+  display: block;
+  margin: auto auto auto 1%;
+  width: 100%;
+  height: auto;
+}
+
+.col-md-6>h2,.col-md-6>h5{
+  text-align: right;
+}
+
+.col-md-3{
+  border: 1px solid #ddd;
+  padding: .5%;
+  border-radius: 20px;
+}
+
+.col-md-3:hover{
+  box-shadow: 0px 8px 8px -6px #000;
+}
+
+.col-md-3 img{
+  width: 100%;
+  height: auto;
+  margin: 1% auto;
+}
+
+h5{
+  font-weight: 550;
+}
+
+table{
+  box-shadow: 0px 6px 6px -6px #000;
+}
+
+table thead th{
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+  padding: 1%;
+  margin: 1%;
+  background: #000;
+  color: #fff;
+}
+
+.modal-header{
+  background: #000;
+  color: #fff;
+}
+
+.modal-body img{
+  width: 96%;
+  margin: 1% auto;
+}
+
+.panel-primary>.panel-heading{
+  background:#000;
+  border: 1px solid #000;
+}
+
+.panel-primary{
+  border: 1px solid #000;
+}
+
+.btn-primary{
+  background: #000;
+  border: 1px solid #000;
+}
+
+.img{
+  width: 80%;
+  height: auto;
+}
